@@ -21,3 +21,4 @@ widgetsnbextension==3.5.2
 xhtml2pdf~=0.2.3
 pip~=19.2.3
 setuptools~=41.2.0
+gunicorn
