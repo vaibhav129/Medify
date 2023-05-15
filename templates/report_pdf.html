@@ -1,5 +1,4 @@
 {% load static %}
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta
@@ -94,7 +93,6 @@
 													<b>Department: </b>{{report.doctor.department_name}}<br>
 
 													
-                                                    <!-- <b>Doctor Ph: </b>{{report.doctor.phone_number}}<br> -->
 												</p>
 											</div>
 										</div>
@@ -117,7 +115,7 @@
 										<div class="col-md-12">
 											<div class="table-responsive">
 												<table class="invoice-table table table-bordered" style="text-align: center;border: 1px solid black">
-													
+
 														<tr style="vertical-align: center;height: 50px;">
 															<th>Specimen Information</th>
 															<th>Specimen ID</th>
@@ -159,16 +157,18 @@
                               								<th class="text-center">Referred value</th>
 	
 														</tr>
-														<tr style="vertical-align: ;height: 30px;">
-															{% for t in test %}
+													{% for t in test %}
+														<tr style="vertical-align:center;height: 30px;">
+
 														
 															<th class="text-center">{{t.test_name}}</th>
 															<th class="text-center">{{t.result}}</th>
 															<th class="text-center">{{t.unit}}</th>
 															<th class="text-center">{{t.referred_value}}</th>
 
-															{% endfor %}
+
 														</tr>
+													{% endfor %}
 														
 													
 												</table>
@@ -180,7 +180,7 @@
 								<div class="other-info">
 									<h2 class="text-center" style="margin-bottom: 4px;color:rgb(84, 147, 199);text-align: center;"><b>Other Information</b></h2>
 									<p>{{report.other_information}}</p>
-                                  
+
 								</div>
 								<!-- /Invoice Item -->
                                 

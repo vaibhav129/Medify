@@ -28,7 +28,7 @@ from django.core.mail import BadHeaderError, send_mail
 from django.template.loader import render_to_string
 from django.http import HttpResponse
 from django.utils.html import strip_tags
-from io import BytesIO
+from io import BytesIO,StringIO
 from urllib import response
 from django.shortcuts import render
 from django.template.loader import get_template
@@ -552,7 +552,7 @@ def render_to_pdf(template_src, context_dict={}):
     template=get_template(template_src)
     html=template.render(context_dict)
     result=BytesIO()
-    pdf=pisa.pisaDocument(BytesIO(html.encode("ISO-8859-1")), result)
+    pdf = pisa.pisaDocument(BytesIO (html.encode("utf-8")), result)
     if not pdf.err:
         return HttpResponse(result.getvalue(),content_type="aplication/pdf")
     return None
@@ -570,7 +570,7 @@ def report_pdf(request, pk):
     if pdf:
         response=HttpResponse(pdf, content_type='application/pdf')
         content="inline; filename=report.pdf"
-        # response['Content-Disposition']= content
+        response['Content-Disposition']= content
         return response
     return HttpResponse("Not Found")
 

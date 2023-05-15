@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcf611bd-16a0-4bb2-ab8e-33365d4f599d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/doctor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthstack/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/healthstack/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/report_pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report_pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test-cart.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="80f03834-a228-4517-a8e3-38d071ae2723" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NWGW40J8yJdRhSslr1LHqiDW6e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcf611bd-16a0-4bb2-ab8e-33365d4f599d" name="Default Changelist" comment="" />
+      <created>1679772453632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679772453632</updated>
+      <workItem from="1679772454871" duration="6302000" />
+      <workItem from="1679901824086" duration="1865000" />
+      <workItem from="1679948226942" duration="4419000" />
+      <workItem from="1680025542666" duration="4325000" />
+      <workItem from="1680070318952" duration="2402000" />
+      <workItem from="1680111566476" duration="7076000" />
+      <workItem from="1680122585750" duration="1337000" />
+      <workItem from="1680241023690" duration="3440000" />
+      <workItem from="1680329371808" duration="649000" />
+      <workItem from="1680538615040" duration="1342000" />
+      <workItem from="1680540445012" duration="594000" />
+      <workItem from="1682321099470" duration="4222000" />
+      <workItem from="1682949917656" duration="632000" />
+      <workItem from="1682954127821" duration="1085000" />
+      <workItem from="1682955292289" duration="21000" />
+      <workItem from="1682956043901" duration="381000" />
+      <workItem from="1683017382555" duration="853000" />
+      <workItem from="1684044382175" duration="2234000" />
+      <workItem from="1684158639213" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="218" key="#Images" timestamp="1680070590200">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="520" y="218" key="#Images/0.0.1536.816@0.0.1536.816" timestamp="1680070590200" />
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683017443136">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1683017443136" />
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1683018613479">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1683018613479" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1682322561694">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1682322561694" />
+    <state x="360" y="58" key="new project wizard" timestamp="1682954794966">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="360" y="58" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1682954794966" />
+  </component>
+</project>
