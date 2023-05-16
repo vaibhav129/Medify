@@ -93,7 +93,9 @@
       <li>
         <a href="{% url 'about-us'%}"style="text-decoration: none;">About Us</a>
       </li>
-
+         <li>
+            <a href="https://diseasepredictor-capstone.onrender.com/" target="_blank" style="text-decoration: none;">Disease Prediction</a>
+        </li>
       {% if user.is_authenticated and user.is_doctor or user.is_patient %}
       <li><a href="{% url 'multiple-hospital' %}" style="text-decoration: none;">Hospital</a></li>
       {% endif %}
