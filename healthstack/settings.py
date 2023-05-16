@@ -36,7 +36,7 @@ DEBUG=True
 
 ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['mobile view', 'local host','ngrok -- keeps on changing']
-
+CSRF_TRUSTED_ORIGINS = ['https://medify.up.railway.app/']
 # Application definition
 
 INSTALLED_APPS = [
