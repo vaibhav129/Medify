@@ -33,7 +33,7 @@ SECRET_KEY ="h^z13$qr_s_wd65@gnj7a=xs7t05$w7q8!x_8zsld#"
 DEBUG=True
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['mobile view', 'local host','ngrok -- keeps on changing']
 CSRF_TRUSTED_ORIGINS = ['https://medify.up.railway.app/']
